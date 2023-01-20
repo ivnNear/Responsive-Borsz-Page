@@ -59,7 +59,7 @@ header nav a:hover{
     justify-content: space-between;
     width: 2.5rem;
     height: 2.5rem;
-    display: none;
+    
     
 }
 .burger div{
@@ -67,6 +67,7 @@ header nav a:hover{
     height: 4px;
     background-color: rgb(241, 241, 241);
     border-radius: 3px;
+    
 
 }
 #side-bar{
@@ -187,7 +188,5 @@ footer img{
     header nav{
         display: none;
     }
-    .burger{
-        display: block;
-    }
+    
 }
