@@ -38,6 +38,7 @@ header>a{
     
     font-weight: bold;
 }
+
 header nav a {
     font-size: 1rem;
     
@@ -54,7 +55,7 @@ header nav a:hover{
 }
    
 .burger{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 2.5rem;
@@ -184,6 +185,9 @@ footer img{
     }
     header{
         margin-bottom: 1rem;
+    }
+    .burger{
+        display: flex;
     }
     header nav{
         display: none;
