@@ -1,0 +1,29 @@
+main{
+    padding: 6rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+main img{
+    height: 12rem;
+}
+@media(max-width:978px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.fish{
+    font-size: 2rem;
+    color: rgb(39, 39, 38);
+    line-height: 1;
+}
+.m{
+    width: 50%;
+    height: 12.5rem;
+    display: flex;
+    padding: 0 5rem;
+    
+}
+.m img{
+    height: 10rem;
+}
